@@ -21,7 +21,7 @@ This project is a PHP-based application that matches a candidate's resume (in JS
 
 ## 🚀 How to Run
 
-### 1. ✅ Prerequisites
+### 1. 🛠️ Prerequisites
 
 - PHP 8.x installed
 - Composer installed [https://getcomposer.org/](https://getcomposer.org/)
@@ -48,4 +48,4 @@ After submission, the result shows:
 - Score (0–100)
 - Reason for score (GPT)
 - Experience required
-- Link to job description
+- Link to job description (if mentioned)
