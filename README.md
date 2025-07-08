@@ -27,10 +27,14 @@ This project is a PHP-based application that matches a candidate's resume (in JS
 - Composer installed [https://getcomposer.org/](https://getcomposer.org/)
 - OpenAI GPT-4 API key
 
----
-
 ### 2. 📦 Install dependencies
 
 ```bash
-composer require guzzlehttp/guzzle
+composer require guzzlehttp/guzzle'
+```
 
+### 3. 🧪 Run locally
+
+```bash
+php -S localhost:8000
+```
