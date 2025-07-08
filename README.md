@@ -8,9 +8,9 @@ This project is a PHP-based application that matches a candidate's resume (in JS
 
 - Upload a resume (JSON format) via a simple HTML form
 - Preprocess and filter job descriptions using hard rules:
-  - ✅ Degree match
-  - ✅ Minimum experience
-  - ✅ Required certifications
+  - Degree match
+  - Minimum experience
+  - Required certifications
 - Score remaining JDs using GPT-4 with weighted logic:
   - **Experience** (40%)
   - **Skills** (35%)
@@ -30,7 +30,7 @@ This project is a PHP-based application that matches a candidate's resume (in JS
 ### 2. 📦 Install dependencies
 
 ```bash
-composer require guzzlehttp/guzzle'
+composer require guzzlehttp/guzzle
 ```
 
 ### 3. 🧪 Run locally
@@ -38,3 +38,14 @@ composer require guzzlehttp/guzzle'
 ```bash
 php -S localhost:8000
 ```
+
+---
+
+## ✅ Example Output
+After submission, the result shows:
+
+- Matched Job Title + Company
+- Score (0–100)
+- Reason for score (GPT)
+- Experience required
+- Link to job description
